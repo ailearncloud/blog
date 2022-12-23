@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Data Entropy</title>
+    <link>http://alfredessa.netlify.app/tags/</link>
+    <description>Recent content in Tags on Data Entropy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://alfredessa.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IQ, Intelligence</title>
+      <link>http://alfredessa.netlify.app/tags/iq-intelligence/</link>
+      <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://alfredessa.netlify.app/tags/iq-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cumulative distribution function</title>
+      <link>http://alfredessa.netlify.app/tags/cumulative-distribution-function/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://alfredessa.netlify.app/tags/cumulative-distribution-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>probability distribution function</title>
+      <link>http://alfredessa.netlify.app/tags/probability-distribution-function/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://alfredessa.netlify.app/tags/probability-distribution-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statistics</title>
+      <link>http://alfredessa.netlify.app/tags/statistics/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://alfredessa.netlify.app/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>z-score</title>
+      <link>http://alfredessa.netlify.app/tags/z-score/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://alfredessa.netlify.app/tags/z-score/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

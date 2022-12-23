@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>probability distribution function on Data Entropy</title>
+    <link>http://alfredessa.netlify.app/tags/probability-distribution-function/</link>
+    <description>Recent content in probability distribution function on Data Entropy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://alfredessa.netlify.app/tags/probability-distribution-function/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cumulative Distribution Functions, Part I</title>
+      <link>http://alfredessa.netlify.app/post/cumulative-distribution-function/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://alfredessa.netlify.app/post/cumulative-distribution-function/</guid>
+      <description>Let’s change this.
+If you are an aspiring data scientist, you are likely to be familiar with Histograms and Probability Density Functions. Both are well known tools for analyzing distributions. By contrast, Cumulative Distribution Functions (CDFs) are not as well known. Most introductory statistics and data science textbooks neglect it entirely or give it short shrift. This state of affairs is unfortunate since CDFs are easy to understand and easy to implement.</description>
+    </item>
+    
+  </channel>
+</rss>

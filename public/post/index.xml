@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Data Entropy</title>
+    <link>http://alfredessa.netlify.app/post/</link>
+    <description>Recent content in Posts on Data Entropy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 23 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://alfredessa.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Post 2</title>
+      <link>http://alfredessa.netlify.app/post/2022-12-23-test-post-2/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://alfredessa.netlify.app/post/2022-12-23-test-post-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TestPost</title>
+      <link>http://alfredessa.netlify.app/post/2022-12-23-testpost/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://alfredessa.netlify.app/post/2022-12-23-testpost/</guid>
+      <description>This is a test post. Let&amp;rsquo;s see what happens now.</description>
+    </item>
+    
+    <item>
+      <title>II. Examining the Bell Curve: Is Charles Murray a Racist?</title>
+      <link>http://alfredessa.netlify.app/post/2021-04-11-is-charles-murray-a-racist-examining-the-bell-curve-part-ii/</link>
+      <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://alfredessa.netlify.app/post/2021-04-11-is-charles-murray-a-racist-examining-the-bell-curve-part-ii/</guid>
+      <description>Have you read The Rise of the Colored Empires by this man Goddard?… It’s a fine book and everybody ought to read it. The idea is if we don’t look out the white race will be—will be utterly submerged. It’s all scientific stuff; it’s been proved. — This idea is that we’re Nordics…and we’ve produced all the things that go to make civilization – oh, science and art and all that.</description>
+    </item>
+    
+    <item>
+      <title>I. Examining the Bell Curve: The Argument Summarized</title>
+      <link>http://alfredessa.netlify.app/post/2021-04-03-argument-of-the-bell-curve/</link>
+      <pubDate>Sat, 03 Apr 2021 14:36:11 -0400</pubDate>
+      
+      <guid>http://alfredessa.netlify.app/post/2021-04-03-argument-of-the-bell-curve/</guid>
+      <description>In a series of posts I examine Richard Herrnstein and Charles Murray’s The Bell Curve (TBC) from the lens of data science. My approach will be to avoid polemics and to hew the analysis as closely as possible to the original dataset NLSY79. A change.
+In this first post I summarize the argument of TBC as a set of ten propositions. I do so for two reasons. First, I believe that one should withhold criticism of a work until one has clearly understood its argument.</description>
+    </item>
+    
+    <item>
+      <title>Cumulative Distribution Functions, Part I</title>
+      <link>http://alfredessa.netlify.app/post/cumulative-distribution-function/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://alfredessa.netlify.app/post/cumulative-distribution-function/</guid>
+      <description>Let’s change this.
+If you are an aspiring data scientist, you are likely to be familiar with Histograms and Probability Density Functions. Both are well known tools for analyzing distributions. By contrast, Cumulative Distribution Functions (CDFs) are not as well known. Most introductory statistics and data science textbooks neglect it entirely or give it short shrift. This state of affairs is unfortunate since CDFs are easy to understand and easy to implement.</description>
+    </item>
+    
+  </channel>
+</rss>

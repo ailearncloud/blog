@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>I. Examining the Bell Curve: The Argument Summarized - Data Entropy</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Alfred Essa" /><meta name="description" content="In a series of posts I examine Richard Herrnstein and Charles Murray’s The Bell Curve (TBC) from the lens of data science. My approach will be to avoid polemics and to hew the analysis as closely as possible to the original dataset NLSY79. A change.
+In this first post I summarize the argument of TBC as a set of ten propositions. I do so for two reasons. First, I believe that one should withhold criticism of a work until one has clearly understood its argument." /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.109.0 with theme even" />
+
+
+<link rel="canonical" href="http://alfredessa.netlify.app/post/2021-04-03-argument-of-the-bell-curve/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.f92fd13721ddf72129410fd8250e73152cc6f2438082b6c0208dc24ee7c13fc4.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="I. Examining the Bell Curve: The Argument Summarized" />
+<meta property="og:description" content="In a series of posts I examine Richard Herrnstein and Charles Murray’s The Bell Curve (TBC) from the lens of data science. My approach will be to avoid polemics and to hew the analysis as closely as possible to the original dataset NLSY79. A change.
+In this first post I summarize the argument of TBC as a set of ten propositions. I do so for two reasons. First, I believe that one should withhold criticism of a work until one has clearly understood its argument." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://alfredessa.netlify.app/post/2021-04-03-argument-of-the-bell-curve/" /><meta property="article:section" content="post" />
+
+<meta property="article:modified_time" content="2021-04-03T14:36:11-04:00" />
+<meta itemprop="name" content="I. Examining the Bell Curve: The Argument Summarized">
+<meta itemprop="description" content="In a series of posts I examine Richard Herrnstein and Charles Murray’s The Bell Curve (TBC) from the lens of data science. My approach will be to avoid polemics and to hew the analysis as closely as possible to the original dataset NLSY79. A change.
+In this first post I summarize the argument of TBC as a set of ten propositions. I do so for two reasons. First, I believe that one should withhold criticism of a work until one has clearly understood its argument.">
+<meta itemprop="dateModified" content="2021-04-03T14:36:11-04:00" />
+<meta itemprop="wordCount" content="692">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="I. Examining the Bell Curve: The Argument Summarized"/>
+<meta name="twitter:description" content="In a series of posts I examine Richard Herrnstein and Charles Murray’s The Bell Curve (TBC) from the lens of data science. My approach will be to avoid polemics and to hew the analysis as closely as possible to the original dataset NLSY79. A change.
+In this first post I summarize the argument of TBC as a set of ten propositions. I do so for two reasons. First, I believe that one should withhold criticism of a work until one has clearly understood its argument."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">DataEntropy</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">DataEntropy</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">I. Examining the Bell Curve: The Argument Summarized</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2021-04-03 </span>
+        
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      
+<script src="http://alfredessa.netlify.app/post/2021-04-03-argument-of-the-bell-curve/index_files/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+
+</div>
+
+<p>In a series of posts I examine Richard Herrnstein and Charles Murray’s <a href="https://en.wikipedia.org/wiki/The_Bell_Curve">The Bell Curve</a> (TBC) from the lens of data science. My approach will be to avoid polemics and to hew the analysis as closely as possible to the original dataset <a href="https://www.bls.gov/nls/nlsy79.htm">NLSY79</a>. A change.</p>
+<p>In this first post I summarize the argument of TBC as a set of <strong>ten propositions</strong>. I do so for two reasons. First, I believe that one should withhold criticism of a work until one has clearly understood its argument. I also invite others to review the ten propositions below for accuracy and completeness. Second, TBC is a lengthy work and in the course of a 845 pages it makes many claims. The situation is similar to someone arguing a case in a court of law. As jurors we should not attach the same weight to every piece of evidence. But to assess each piece of evidence in context requires an understanding of the whole.</p>
+<div id="the-bell-curve-summarized-as-ten-propositions" class="section level1">
+<h1>The Bell Curve Summarized as Ten Propositions</h1>
+<blockquote>
+<p><strong>Proposition 1</strong>: Intelligence (“g”) is a latent natural trait. It can be measured objectively by IQ tests.</p>
+</blockquote>
+<blockquote>
+<p><strong>Proposition 2</strong>: IQ is distributed in the general population in the shape of a Bell Curve, or what is called a “Gaussian distribution” by statisticians.</p>
+</blockquote>
+<blockquote>
+<p><strong>Proposition 3</strong>: IQ is the primary <strong>cause</strong> of a range of social, economic, moral, and political outcomes. IQ also <strong>explains</strong> and <strong>predicts</strong> them.</p>
+</blockquote>
+<p><strong>Comment:</strong> Proposition 3 is the linchpin proposition of TBC. I will argue that if the data analysis does not establish P3, then the monumental edifice of TBC crumbles to the ground <em>tout court</em>.</p>
+<blockquote>
+<p><strong>Proposition 4</strong>: Class structure in the US is <strong>not</strong> primarily the result of social or economic factors. Class structure exactly mirrors cognitive structure. Cognitive stratification has been driven by two historical forces. First, education in the US is now meritocratic. Only the brightest are accepted, enrolled, and graduate from elite higher education institutions. Second, the labor market “pays for brains.” The end result is a sorting of the population into three cognitive classes: the <em>under class</em> representing the low end of the IQ distribution; the <em>upper class</em> representing the high end; and the <em>middle class</em> representing the middle.</p>
+</blockquote>
+<blockquote>
+<p><strong>Proposition 5</strong>: Blacks <em>on average</em> are <strong>substantially inferior</strong> to Whites. Blacks are inferior intellectually, morally and politically. Blacks on average are intellectually inferior to Whites because they score much lower (as much as one standard deviation) on cognitive tests than Whites. Blacks on average are morally inferior to Whites because IQ causes a full range of undesirable moral outcomes. The adverse outcomes include illegitimacy, criminality, welfare-dependency, drug addiction, bad parenting. Blacks on average are politically inferior to Whites because they lack the virtues required to govern and be governed in the full sense.</p>
+</blockquote>
+<p><strong>Comment:</strong> TBC’s notoriety stems from P5. It is worth highlighting that, according to TBC, Blacks are not just intellectually inferior to Whites. They are also morally and politically inferior. Something we will need to unpack is how Herrnstein and Murray (H&amp;M) can claim, on the one hand, that Blacks are substantially inferior to Whites, and, on the other hand, that H&amp;M are not racists.</p>
+<blockquote>
+<p><strong>Proposition 6</strong>: The pattern of immigration (legal and illegal) in America is skewed towards admitting people with much lower intelligence than the majority White population.</p>
+</blockquote>
+<blockquote>
+<p><strong>Proposition 7</strong>: As a natural trait, IQ is mostly fixed at birth. Therefore, all attempts to change outcomes through interventions have been found to be fruitless. At best, society can only mitigate the deleterious effects of those with low IQ.</p>
+</blockquote>
+<blockquote>
+<p><strong>Proposition 8</strong>: Like attracts Like. Cognitive classes live, procreate, and marry among their own castes.</p>
+</blockquote>
+<blockquote>
+<p><strong>Proposition 9</strong>: People with low IQ reproduce at a much higher rate than those with high IQ, a phenomenon called <strong>dysgenesis</strong>. As a result, the number of people with low intelligence is replenishing the population pool at an alarmingly faster rate than those with high intelligence.</p>
+</blockquote>
+<blockquote>
+<p><strong>Proposition 10</strong>: The underclass (those with low IQs) poses a permanent and ineradicable threat to social order, civic function, and good government. Nonetheless, they deserve a “valued place” in society.</p>
+</blockquote>
+<p>In the next post I will examine TBC’s view on Race as stated in Proposition 5.</p>
+</div>
+
+    </div>
+
+    
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        <a class="prev" href="/post/2021-04-11-is-charles-murray-a-racist-examining-the-bell-curve-part-ii/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">II. Examining the Bell Curve: Is Charles Murray a Racist?</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/cumulative-distribution-function/">
+            <span class="next-text nav-default">Cumulative Distribution Functions, Part I</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://twitter.com/alfredessa" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://linkedin.com/in/aessa" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://github.com/alfredessa" class="iconfont icon-github" title="github"></a>
+  <a href="http://alfredessa.netlify.app/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2022<span class="heart"><i class="iconfont icon-heart"></i></span><span>Essa</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.4ae89da218555efa0e7093a20b92017d2e1202b66fff9fc2edf4cb8d44b44c6e.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
